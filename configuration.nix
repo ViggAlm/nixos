@@ -5,10 +5,10 @@
     [
       ./hardware-configuration.nix
       ./boot/boot.nix
-      ./boot/secureboot.nix
+#     ./boot/secureboot.nix  Add back when Lanzaboote ready
       ./modules/networking.nix
       ./modules/gnome.nix
-#      ./modules/hyprland.nix
+#     ./modules/hyprland.nix
     ];
     
   # Experimental Nix features
